@@ -1,46 +1,44 @@
 ---
 layout: page
-title: Hello World!
+title: 读书汇!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+##读书汇是什么?
+一个在线交流读书心得的非官方组织
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+可以自由的通过 markdown 编辑读书笔记文件 通过 github 发布到这里
 
-## Update Author Attributes
+##读书汇有哪些栏目？
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+* `经典再现`
+    *  是不是每一次再读经典的某个部分都会有新的感悟？
+    *  有了新的应用场景有了新的体会
+* `新书快读`
+    *  只是为了更快更方便的了解最近热点新书
+* `实践案例`
+    *  书不只是拿来读的 更是拿来用的，show出实践案例吧
+* 其他`没有预见`到的。。。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+##有问题反馈
+在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+* 管理员邮件(bingowill#gmail.com, 把#换成@)
+* weibo: [@bingowill](http://weibo.com/bingowill)
 
-    $ rm -rf _posts/core-samples
+##感激
+排名不分先后
+* [@voff12](http://github.com/voff12)
 
-Here's a sample "posts list".
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+##关于作者
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+```java
+  var = {
+    nickName  : "读书汇",
+    site : "lovebook.github.com"
+  }
+```
 
 
