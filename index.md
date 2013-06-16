@@ -34,7 +34,7 @@ tags : [index, beginner, jekyll]
 
 
 ####关于作者
-```javascript
+```
     var = {
     nickName  : "读书汇",
     site : "lovebook.github.com"
