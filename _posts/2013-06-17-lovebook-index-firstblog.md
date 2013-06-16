@@ -1,4 +1,5 @@
 ---
+title:搭建读书汇blog雏形
 layout: post
 category : building
 tags : [jekyll]
