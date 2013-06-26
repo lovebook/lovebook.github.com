@@ -1,7 +1,7 @@
 ---
 layout: post
 category : building
-tags : [jekyll]
+tags : [jekyll ]
 ---
 {% include JB/setup %}
 
